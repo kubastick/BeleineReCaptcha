@@ -46,6 +46,11 @@ func (r *ReCaptcha) RenderJS() string {
 	return ""
 }
 
+//Returns JS code as string, that returns response
+func (r *ReCaptcha) GetResponseJS() string {
+	return "grecaptcha.getResponse()"
+}
+
 func (r *ReCaptcha) GetID() string {
 	return r.id
 }
