@@ -1,5 +1,5 @@
 # BeleineReCaptcha
-ReCaptcha component for BeleineFramework
+ReCaptcha component for BeleineFramework  
 Usage:
 ```
 //Create new ReCaptcha struct
